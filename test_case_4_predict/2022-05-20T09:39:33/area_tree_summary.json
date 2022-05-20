@@ -1,0 +1,174 @@
+{
+  "name": "Grid",
+  "uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+  "parent_uuid": "",
+  "type": "Area",
+  "children": [
+    {
+      "name": "Community",
+      "uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+      "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+      "type": "Area",
+      "children": [
+        {
+          "name": "House 1",
+          "uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_1",
+              "uuid": "3e38662c-b77e-45c5-a811-eb117044f5db",
+              "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_1",
+              "uuid": "d77df1df-92c8-498d-a413-3689d98df0c6",
+              "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_1_load",
+              "uuid": "043a326b-46ba-455d-bfb7-a68e77613b41",
+              "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_1_pv",
+              "uuid": "08a937d8-5dbb-4d7a-a5e6-ec4d6c021817",
+              "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 2",
+          "uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_2",
+              "uuid": "f52a1f76-300d-4017-b884-6fee0321980d",
+              "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_2",
+              "uuid": "8c8bbfcc-2983-4a4d-8ace-64bd02c3227e",
+              "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_2_load",
+              "uuid": "3380bdfc-6228-40cd-89be-d69fa2ee9413",
+              "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_2_pv",
+              "uuid": "ef4fe29d-1437-4779-999c-16fc186992e3",
+              "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 3",
+          "uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_3",
+              "uuid": "aaaa9c19-b824-4274-81ea-2f7dcf1f29fe",
+              "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_3",
+              "uuid": "d4927993-32ad-46f9-8a2a-a0ca51052e16",
+              "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_3_load",
+              "uuid": "bc32dc41-c8d3-4e56-8791-037cf6d541e4",
+              "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_3_pv",
+              "uuid": "bcd99ba3-b6dd-48c5-bd37-314a05fb62ae",
+              "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 4",
+          "uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_4",
+              "uuid": "0bb75b53-fc45-476e-a7f3-53babbfa3ef1",
+              "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_4",
+              "uuid": "3caf585d-9907-4792-8880-f78a647ddf96",
+              "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_4_load",
+              "uuid": "e3a879fc-bd6d-47a9-abf9-dc6b0ee55153",
+              "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "ev_4_pv",
+              "uuid": "3fecf30d-0cdc-4267-a6f8-10a4d1476b2e",
+              "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "community_battery",
+          "uuid": "b6a33751-a828-42bb-b61d-30d101739681",
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "type": "StorageStrategy",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Market Maker",
+      "uuid": "2a01f7d9-3ba4-49f7-b2a8-d8a74502b644",
+      "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+      "type": "MarketMakerStrategy",
+      "children": []
+    }
+  ]
+}

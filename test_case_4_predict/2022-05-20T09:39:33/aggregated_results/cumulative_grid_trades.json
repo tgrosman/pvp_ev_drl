@@ -1,0 +1,1725 @@
+{
+  "3e38662c-b77e-45c5-a811-eb117044f5db": {
+    "name": "load_1",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 1": 529.9294423300066,
+      "pv_1": 22.008661959999987,
+      "ev_1_pv": 1.9664559675
+    },
+    "spentTo": {
+      "House 1": 12862.816734893791,
+      "pv_1": 495.8265749375004,
+      "ev_1_pv": 30.471897849999998
+    },
+    "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+    "children": []
+  },
+  "d77df1df-92c8-498d-a413-3689d98df0c6": {
+    "name": "pv_1",
+    "produced": -426.1873529875008,
+    "earned": 6837.951637609893,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+    "children": []
+  },
+  "043a326b-46ba-455d-bfb7-a68e77613b41": {
+    "name": "ev_1_load",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 1": 11.1246074975,
+      "pv_1": 1.451895525
+    },
+    "spentTo": {
+      "House 1": 254.372822415,
+      "pv_1": 27.120144562500002
+    },
+    "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+    "children": []
+  },
+  "08a937d8-5dbb-4d7a-a5e6-ec4d6c021817": {
+    "name": "ev_1_pv",
+    "produced": -25.364193804999992,
+    "earned": 293.8203403321198,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+    "children": []
+  },
+  "02c949d5-4e9c-43eb-bc36-fbf81d0321cb": {
+    "name": "House 1",
+    "type": "house",
+    "produced": -451.55154679250086,
+    "earned": 7131.771977942013,
+    "consumedFrom": {
+      "community_battery": 279.6082272775005,
+      "House 1": 25.427013452499992,
+      "House 4": 147.25565212499978,
+      "House 2": 10.766937632500005,
+      "House 3": 12.503655710000002,
+      "Community": 90.91957708250025
+    },
+    "spentTo": {
+      "community_battery": 6870.00656079371,
+      "House 1": 553.4186173500004,
+      "House 4": 2614.8997816512438,
+      "House 2": 206.73670164374997,
+      "House 3": 243.3613153325,
+      "Community": 3182.185197887491
+    },
+    "producedForExternal": {
+      "pv_1": 402.72679550250086,
+      "ev_1_pv": 23.397737837499992
+    },
+    "earnedFromExternal": {
+      "pv_1": 6315.00491810989,
+      "ev_1_pv": 263.34844248211994
+    },
+    "consumedFromExternal": {
+      "load_1": -529.9294423300066,
+      "ev_1_load": -11.1246074975
+    },
+    "spentToExternal": {
+      "load_1": 12862.816734893791,
+      "ev_1_load": 254.372822415
+    },
+    "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+    "children": [
+      {
+        "name": "load_1",
+        "uuid": "3e38662c-b77e-45c5-a811-eb117044f5db",
+        "accumulated_trades": {
+          "name": "load_1",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 1": 529.9294423300066,
+            "pv_1": 22.008661959999987,
+            "ev_1_pv": 1.9664559675
+          },
+          "spentTo": {
+            "House 1": 12862.816734893791,
+            "pv_1": 495.8265749375004,
+            "ev_1_pv": 30.471897849999998
+          },
+          "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+          "children": []
+        }
+      },
+      {
+        "name": "pv_1",
+        "uuid": "d77df1df-92c8-498d-a413-3689d98df0c6",
+        "accumulated_trades": {
+          "name": "pv_1",
+          "produced": -426.1873529875008,
+          "earned": 6837.951637609893,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_1_load",
+        "uuid": "043a326b-46ba-455d-bfb7-a68e77613b41",
+        "accumulated_trades": {
+          "name": "ev_1_load",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 1": 11.1246074975,
+            "pv_1": 1.451895525
+          },
+          "spentTo": {
+            "House 1": 254.372822415,
+            "pv_1": 27.120144562500002
+          },
+          "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_1_pv",
+        "uuid": "08a937d8-5dbb-4d7a-a5e6-ec4d6c021817",
+        "accumulated_trades": {
+          "name": "ev_1_pv",
+          "produced": -25.364193804999992,
+          "earned": 293.8203403321198,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+          "children": []
+        }
+      }
+    ]
+  },
+  "f52a1f76-300d-4017-b884-6fee0321980d": {
+    "name": "load_2",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 2": 265.2997665925001,
+      "pv_2": 104.66508240999985,
+      "ev_2_pv": 1.8175105225
+    },
+    "spentTo": {
+      "House 2": 5757.943519831247,
+      "pv_2": 1841.1027330562497,
+      "ev_2_pv": 23.9501208875
+    },
+    "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+    "children": []
+  },
+  "8c8bbfcc-2983-4a4d-8ace-64bd02c3227e": {
+    "name": "pv_2",
+    "produced": -340.11141154499984,
+    "earned": 5141.804430653701,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+    "children": []
+  },
+  "3380bdfc-6228-40cd-89be-d69fa2ee9413": {
+    "name": "ev_2_load",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 2": 37.151290312499995,
+      "pv_2": 1.77146276
+    },
+    "spentTo": {
+      "House 2": 929.8130152624998,
+      "pv_2": 37.041921555
+    },
+    "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+    "children": []
+  },
+  "ef4fe29d-1437-4779-999c-16fc186992e3": {
+    "name": "ev_2_pv",
+    "produced": -28.743739802500002,
+    "earned": 337.3835584181056,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+    "children": []
+  },
+  "de8a9696-5b9b-4706-9dcb-17f4de588c1c": {
+    "name": "House 2",
+    "type": "house",
+    "produced": -368.8551513475003,
+    "earned": 5479.187989071798,
+    "consumedFrom": {
+      "community_battery": 243.00902114000047,
+      "House 2": 108.25405569249985,
+      "House 4": 34.64969749750001,
+      "House 1": 8.0079963625,
+      "House 3": 8.534341905000002,
+      "Community": 8.25
+    },
+    "spentTo": {
+      "community_battery": 5529.116683814998,
+      "House 2": 1902.0947754987496,
+      "House 4": 526.2825929987501,
+      "House 1": 150.72228591125,
+      "House 3": 180.50997236874997,
+      "Community": 301.125
+    },
+    "producedForExternal": {
+      "pv_2": 233.67486637500028,
+      "ev_2_pv": 26.926229279999998
+    },
+    "earnedFromExternal": {
+      "pv_2": 3263.6597760424534,
+      "ev_2_pv": 313.4334375306056
+    },
+    "consumedFromExternal": {
+      "load_2": -265.2997665925001,
+      "ev_2_load": -37.151290312499995
+    },
+    "spentToExternal": {
+      "load_2": 5757.943519831247,
+      "ev_2_load": 929.8130152624998
+    },
+    "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+    "children": [
+      {
+        "name": "load_2",
+        "uuid": "f52a1f76-300d-4017-b884-6fee0321980d",
+        "accumulated_trades": {
+          "name": "load_2",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 2": 265.2997665925001,
+            "pv_2": 104.66508240999985,
+            "ev_2_pv": 1.8175105225
+          },
+          "spentTo": {
+            "House 2": 5757.943519831247,
+            "pv_2": 1841.1027330562497,
+            "ev_2_pv": 23.9501208875
+          },
+          "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+          "children": []
+        }
+      },
+      {
+        "name": "pv_2",
+        "uuid": "8c8bbfcc-2983-4a4d-8ace-64bd02c3227e",
+        "accumulated_trades": {
+          "name": "pv_2",
+          "produced": -340.11141154499984,
+          "earned": 5141.804430653701,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_2_load",
+        "uuid": "3380bdfc-6228-40cd-89be-d69fa2ee9413",
+        "accumulated_trades": {
+          "name": "ev_2_load",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 2": 37.151290312499995,
+            "pv_2": 1.77146276
+          },
+          "spentTo": {
+            "House 2": 929.8130152624998,
+            "pv_2": 37.041921555
+          },
+          "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_2_pv",
+        "uuid": "ef4fe29d-1437-4779-999c-16fc186992e3",
+        "accumulated_trades": {
+          "name": "ev_2_pv",
+          "produced": -28.743739802500002,
+          "earned": 337.3835584181056,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+          "children": []
+        }
+      }
+    ]
+  },
+  "aaaa9c19-b824-4274-81ea-2f7dcf1f29fe": {
+    "name": "load_3",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 3": 194.7658907600012,
+      "pv_3": 84.01558938249974,
+      "ev_3_pv": 1.84268821
+    },
+    "spentTo": {
+      "House 3": 4196.522249443754,
+      "pv_3": 1476.5152901250071,
+      "ev_3_pv": 20.835774881250003
+    },
+    "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+    "children": []
+  },
+  "d4927993-32ad-46f9-8a2a-a0ca51052e16": {
+    "name": "pv_3",
+    "produced": -294.22039297250024,
+    "earned": 4459.473189912854,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+    "children": []
+  },
+  "bc32dc41-c8d3-4e56-8791-037cf6d541e4": {
+    "name": "ev_3_load",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 3": 426.1197396924999,
+      "pv_3": 7.158967909999999
+    },
+    "spentTo": {
+      "House 3": 13282.66073326625,
+      "pv_3": 161.4805743025
+    },
+    "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+    "children": []
+  },
+  "bcd99ba3-b6dd-48c5-bd37-314a05fb62ae": {
+    "name": "ev_3_pv",
+    "produced": -45.63554704500003,
+    "earned": 582.0932008520466,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+    "children": []
+  },
+  "1b439886-c832-43b9-892d-3537b7d93ee9": {
+    "name": "House 3",
+    "type": "house",
+    "produced": -339.85594001750036,
+    "earned": 5041.566390764899,
+    "consumedFrom": {
+      "community_battery": 274.47289708000096,
+      "House 3": 93.01724550249972,
+      "House 1": 6.108456489999999,
+      "House 4": 141.59888413999997,
+      "House 2": 9.664037352500005,
+      "Community": 189.04135539
+    },
+    "spentTo": {
+      "community_battery": 6689.105959637506,
+      "House 3": 1658.8316393087553,
+      "House 1": 124.22891392125001,
+      "House 4": 3161.3858876262507,
+      "House 2": 225.30707209500002,
+      "Community": 7279.15514943
+    },
+    "producedForExternal": {
+      "pv_3": 203.04583568000012,
+      "ev_3_pv": 43.79285883500002
+    },
+    "earnedFromExternal": {
+      "pv_3": 2821.4773254853358,
+      "ev_3_pv": 561.2574259707965
+    },
+    "consumedFromExternal": {
+      "load_3": -194.7658907600012,
+      "ev_3_load": -426.1197396924999
+    },
+    "spentToExternal": {
+      "load_3": 4196.522249443754,
+      "ev_3_load": 13282.66073326625
+    },
+    "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+    "children": [
+      {
+        "name": "load_3",
+        "uuid": "aaaa9c19-b824-4274-81ea-2f7dcf1f29fe",
+        "accumulated_trades": {
+          "name": "load_3",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 3": 194.7658907600012,
+            "pv_3": 84.01558938249974,
+            "ev_3_pv": 1.84268821
+          },
+          "spentTo": {
+            "House 3": 4196.522249443754,
+            "pv_3": 1476.5152901250071,
+            "ev_3_pv": 20.835774881250003
+          },
+          "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+          "children": []
+        }
+      },
+      {
+        "name": "pv_3",
+        "uuid": "d4927993-32ad-46f9-8a2a-a0ca51052e16",
+        "accumulated_trades": {
+          "name": "pv_3",
+          "produced": -294.22039297250024,
+          "earned": 4459.473189912854,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_3_load",
+        "uuid": "bc32dc41-c8d3-4e56-8791-037cf6d541e4",
+        "accumulated_trades": {
+          "name": "ev_3_load",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 3": 426.1197396924999,
+            "pv_3": 7.158967909999999
+          },
+          "spentTo": {
+            "House 3": 13282.66073326625,
+            "pv_3": 161.4805743025
+          },
+          "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_3_pv",
+        "uuid": "bcd99ba3-b6dd-48c5-bd37-314a05fb62ae",
+        "accumulated_trades": {
+          "name": "ev_3_pv",
+          "produced": -45.63554704500003,
+          "earned": 582.0932008520466,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+          "children": []
+        }
+      }
+    ]
+  },
+  "0bb75b53-fc45-476e-a7f3-53babbfa3ef1": {
+    "name": "load_4",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 4": 154.65343727750056,
+      "pv_4": 35.33136966750003,
+      "ev_4_pv": 8.625994112499995
+    },
+    "spentTo": {
+      "House 4": 2968.1153566125217,
+      "pv_4": 449.4301802499993,
+      "ev_4_pv": 101.74660811874996
+    },
+    "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+    "children": []
+  },
+  "3caf585d-9907-4792-8880-f78a647ddf96": {
+    "name": "pv_4",
+    "produced": -259.9190393375007,
+    "earned": 3937.2547841915375,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+    "children": []
+  },
+  "e3a879fc-bd6d-47a9-abf9-dc6b0ee55153": {
+    "name": "ev_4_load",
+    "type": "load",
+    "produced": 0.0,
+    "earned": 0.0,
+    "consumedFrom": {
+      "House 4": 364.64150552999996,
+      "pv_4": 6.7029716750000015
+    },
+    "spentTo": {
+      "House 4": 11379.392065381251,
+      "pv_4": 118.50362876624999
+    },
+    "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+    "children": []
+  },
+  "3fecf30d-0cdc-4267-a6f8-10a4d1476b2e": {
+    "name": "ev_4_pv",
+    "produced": -368.39907436250013,
+    "earned": 5340.476165789913,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+    "children": []
+  },
+  "863f72b0-1e9b-442f-b02f-195d5d4cbb41": {
+    "name": "House 4",
+    "type": "house",
+    "produced": -628.3181137000001,
+    "earned": 9277.73094998142,
+    "consumedFrom": {
+      "community_battery": 298.4371127700042,
+      "House 1": 13.437862950000005,
+      "House 3": 17.266782192500006,
+      "House 2": 14.153184895000006,
+      "House 4": 50.660335455000265,
+      "Community": 176.0
+    },
+    "spentTo": {
+      "community_battery": 6969.716873271268,
+      "House 1": 242.12178772499968,
+      "House 3": 311.16854512375005,
+      "House 2": 232.75021587375005,
+      "House 4": 669.6804171349993,
+      "Community": 6591.75
+    },
+    "producedForExternal": {
+      "pv_4": 217.8846979949996,
+      "ev_4_pv": 359.77308024999985
+    },
+    "earnedFromExternal": {
+      "pv_4": 3369.3209751752743,
+      "ev_4_pv": 5238.729557671157
+    },
+    "consumedFromExternal": {
+      "load_4": -154.65343727750056,
+      "ev_4_load": -364.64150552999996
+    },
+    "spentToExternal": {
+      "load_4": 2968.1153566125217,
+      "ev_4_load": 11379.392065381251
+    },
+    "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+    "children": [
+      {
+        "name": "load_4",
+        "uuid": "0bb75b53-fc45-476e-a7f3-53babbfa3ef1",
+        "accumulated_trades": {
+          "name": "load_4",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 4": 154.65343727750056,
+            "pv_4": 35.33136966750003,
+            "ev_4_pv": 8.625994112499995
+          },
+          "spentTo": {
+            "House 4": 2968.1153566125217,
+            "pv_4": 449.4301802499993,
+            "ev_4_pv": 101.74660811874996
+          },
+          "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+          "children": []
+        }
+      },
+      {
+        "name": "pv_4",
+        "uuid": "3caf585d-9907-4792-8880-f78a647ddf96",
+        "accumulated_trades": {
+          "name": "pv_4",
+          "produced": -259.9190393375007,
+          "earned": 3937.2547841915375,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_4_load",
+        "uuid": "e3a879fc-bd6d-47a9-abf9-dc6b0ee55153",
+        "accumulated_trades": {
+          "name": "ev_4_load",
+          "type": "load",
+          "produced": 0.0,
+          "earned": 0.0,
+          "consumedFrom": {
+            "House 4": 364.64150552999996,
+            "pv_4": 6.7029716750000015
+          },
+          "spentTo": {
+            "House 4": 11379.392065381251,
+            "pv_4": 118.50362876624999
+          },
+          "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+          "children": []
+        }
+      },
+      {
+        "name": "ev_4_pv",
+        "uuid": "3fecf30d-0cdc-4267-a6f8-10a4d1476b2e",
+        "accumulated_trades": {
+          "name": "ev_4_pv",
+          "produced": -368.39907436250013,
+          "earned": 5340.476165789913,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+          "children": []
+        }
+      }
+    ]
+  },
+  "b6a33751-a828-42bb-b61d-30d101739681": {
+    "type": "InfiniteBus",
+    "name": "community_battery",
+    "produced": -1095.5272582674822,
+    "earned": 26057.946077517823,
+    "consumedFrom": {
+      "House 3": 208.53391470750012,
+      "House 2": 226.016935775,
+      "House 1": 398.5702175375005,
+      "House 4": 254.15354448250005
+    },
+    "spentTo": {
+      "House 3": 2647.6949186311376,
+      "House 2": 2912.299223960561,
+      "House 1": 6061.280373034509,
+      "House 4": 2305.4822705701854
+    },
+    "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+    "children": []
+  },
+  "b11982b5-97f7-435b-8bd1-bb8808228463": {
+    "name": "Community",
+    "type": "house",
+    "produced": -2606.749360022485,
+    "earned": 48204.17793598586,
+    "consumedFrom": {
+      "Community": 2606.749360022485,
+      "Market Maker": 464.2109324725006
+    },
+    "spentTo": {
+      "Community": 48204.17793598586,
+      "Market Maker": 17354.21534731748
+    },
+    "producedForExternal": {},
+    "earnedFromExternal": {},
+    "consumedFromExternal": {
+      "House 1": -90.91957708250025,
+      "House 4": -176.0,
+      "House 2": -8.25,
+      "House 3": -189.04135539
+    },
+    "spentToExternal": {
+      "House 1": 3182.185197887491,
+      "House 4": 6591.75,
+      "House 2": 301.125,
+      "House 3": 7279.15514943
+    },
+    "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+    "children": [
+      {
+        "name": "House 1",
+        "uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+        "accumulated_trades": {
+          "name": "House 1",
+          "type": "house",
+          "produced": -451.55154679250086,
+          "earned": 7131.771977942013,
+          "consumedFrom": {
+            "community_battery": 279.6082272775005,
+            "House 1": 25.427013452499992,
+            "House 4": 147.25565212499978,
+            "House 2": 10.766937632500005,
+            "House 3": 12.503655710000002,
+            "Community": 90.91957708250025
+          },
+          "spentTo": {
+            "community_battery": 6870.00656079371,
+            "House 1": 553.4186173500004,
+            "House 4": 2614.8997816512438,
+            "House 2": 206.73670164374997,
+            "House 3": 243.3613153325,
+            "Community": 3182.185197887491
+          },
+          "producedForExternal": {
+            "pv_1": 402.72679550250086,
+            "ev_1_pv": 23.397737837499992
+          },
+          "earnedFromExternal": {
+            "pv_1": 6315.00491810989,
+            "ev_1_pv": 263.34844248211994
+          },
+          "consumedFromExternal": {
+            "load_1": -529.9294423300066,
+            "ev_1_load": -11.1246074975
+          },
+          "spentToExternal": {
+            "load_1": 12862.816734893791,
+            "ev_1_load": 254.372822415
+          },
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "children": [
+            {
+              "name": "load_1",
+              "uuid": "3e38662c-b77e-45c5-a811-eb117044f5db",
+              "accumulated_trades": {
+                "name": "load_1",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 1": 529.9294423300066,
+                  "pv_1": 22.008661959999987,
+                  "ev_1_pv": 1.9664559675
+                },
+                "spentTo": {
+                  "House 1": 12862.816734893791,
+                  "pv_1": 495.8265749375004,
+                  "ev_1_pv": 30.471897849999998
+                },
+                "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                "children": []
+              }
+            },
+            {
+              "name": "pv_1",
+              "uuid": "d77df1df-92c8-498d-a413-3689d98df0c6",
+              "accumulated_trades": {
+                "name": "pv_1",
+                "produced": -426.1873529875008,
+                "earned": 6837.951637609893,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_1_load",
+              "uuid": "043a326b-46ba-455d-bfb7-a68e77613b41",
+              "accumulated_trades": {
+                "name": "ev_1_load",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 1": 11.1246074975,
+                  "pv_1": 1.451895525
+                },
+                "spentTo": {
+                  "House 1": 254.372822415,
+                  "pv_1": 27.120144562500002
+                },
+                "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_1_pv",
+              "uuid": "08a937d8-5dbb-4d7a-a5e6-ec4d6c021817",
+              "accumulated_trades": {
+                "name": "ev_1_pv",
+                "produced": -25.364193804999992,
+                "earned": 293.8203403321198,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "House 2",
+        "uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+        "accumulated_trades": {
+          "name": "House 2",
+          "type": "house",
+          "produced": -368.8551513475003,
+          "earned": 5479.187989071798,
+          "consumedFrom": {
+            "community_battery": 243.00902114000047,
+            "House 2": 108.25405569249985,
+            "House 4": 34.64969749750001,
+            "House 1": 8.0079963625,
+            "House 3": 8.534341905000002,
+            "Community": 8.25
+          },
+          "spentTo": {
+            "community_battery": 5529.116683814998,
+            "House 2": 1902.0947754987496,
+            "House 4": 526.2825929987501,
+            "House 1": 150.72228591125,
+            "House 3": 180.50997236874997,
+            "Community": 301.125
+          },
+          "producedForExternal": {
+            "pv_2": 233.67486637500028,
+            "ev_2_pv": 26.926229279999998
+          },
+          "earnedFromExternal": {
+            "pv_2": 3263.6597760424534,
+            "ev_2_pv": 313.4334375306056
+          },
+          "consumedFromExternal": {
+            "load_2": -265.2997665925001,
+            "ev_2_load": -37.151290312499995
+          },
+          "spentToExternal": {
+            "load_2": 5757.943519831247,
+            "ev_2_load": 929.8130152624998
+          },
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "children": [
+            {
+              "name": "load_2",
+              "uuid": "f52a1f76-300d-4017-b884-6fee0321980d",
+              "accumulated_trades": {
+                "name": "load_2",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 2": 265.2997665925001,
+                  "pv_2": 104.66508240999985,
+                  "ev_2_pv": 1.8175105225
+                },
+                "spentTo": {
+                  "House 2": 5757.943519831247,
+                  "pv_2": 1841.1027330562497,
+                  "ev_2_pv": 23.9501208875
+                },
+                "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                "children": []
+              }
+            },
+            {
+              "name": "pv_2",
+              "uuid": "8c8bbfcc-2983-4a4d-8ace-64bd02c3227e",
+              "accumulated_trades": {
+                "name": "pv_2",
+                "produced": -340.11141154499984,
+                "earned": 5141.804430653701,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_2_load",
+              "uuid": "3380bdfc-6228-40cd-89be-d69fa2ee9413",
+              "accumulated_trades": {
+                "name": "ev_2_load",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 2": 37.151290312499995,
+                  "pv_2": 1.77146276
+                },
+                "spentTo": {
+                  "House 2": 929.8130152624998,
+                  "pv_2": 37.041921555
+                },
+                "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_2_pv",
+              "uuid": "ef4fe29d-1437-4779-999c-16fc186992e3",
+              "accumulated_trades": {
+                "name": "ev_2_pv",
+                "produced": -28.743739802500002,
+                "earned": 337.3835584181056,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "House 3",
+        "uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+        "accumulated_trades": {
+          "name": "House 3",
+          "type": "house",
+          "produced": -339.85594001750036,
+          "earned": 5041.566390764899,
+          "consumedFrom": {
+            "community_battery": 274.47289708000096,
+            "House 3": 93.01724550249972,
+            "House 1": 6.108456489999999,
+            "House 4": 141.59888413999997,
+            "House 2": 9.664037352500005,
+            "Community": 189.04135539
+          },
+          "spentTo": {
+            "community_battery": 6689.105959637506,
+            "House 3": 1658.8316393087553,
+            "House 1": 124.22891392125001,
+            "House 4": 3161.3858876262507,
+            "House 2": 225.30707209500002,
+            "Community": 7279.15514943
+          },
+          "producedForExternal": {
+            "pv_3": 203.04583568000012,
+            "ev_3_pv": 43.79285883500002
+          },
+          "earnedFromExternal": {
+            "pv_3": 2821.4773254853358,
+            "ev_3_pv": 561.2574259707965
+          },
+          "consumedFromExternal": {
+            "load_3": -194.7658907600012,
+            "ev_3_load": -426.1197396924999
+          },
+          "spentToExternal": {
+            "load_3": 4196.522249443754,
+            "ev_3_load": 13282.66073326625
+          },
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "children": [
+            {
+              "name": "load_3",
+              "uuid": "aaaa9c19-b824-4274-81ea-2f7dcf1f29fe",
+              "accumulated_trades": {
+                "name": "load_3",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 3": 194.7658907600012,
+                  "pv_3": 84.01558938249974,
+                  "ev_3_pv": 1.84268821
+                },
+                "spentTo": {
+                  "House 3": 4196.522249443754,
+                  "pv_3": 1476.5152901250071,
+                  "ev_3_pv": 20.835774881250003
+                },
+                "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                "children": []
+              }
+            },
+            {
+              "name": "pv_3",
+              "uuid": "d4927993-32ad-46f9-8a2a-a0ca51052e16",
+              "accumulated_trades": {
+                "name": "pv_3",
+                "produced": -294.22039297250024,
+                "earned": 4459.473189912854,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_3_load",
+              "uuid": "bc32dc41-c8d3-4e56-8791-037cf6d541e4",
+              "accumulated_trades": {
+                "name": "ev_3_load",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 3": 426.1197396924999,
+                  "pv_3": 7.158967909999999
+                },
+                "spentTo": {
+                  "House 3": 13282.66073326625,
+                  "pv_3": 161.4805743025
+                },
+                "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_3_pv",
+              "uuid": "bcd99ba3-b6dd-48c5-bd37-314a05fb62ae",
+              "accumulated_trades": {
+                "name": "ev_3_pv",
+                "produced": -45.63554704500003,
+                "earned": 582.0932008520466,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "House 4",
+        "uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+        "accumulated_trades": {
+          "name": "House 4",
+          "type": "house",
+          "produced": -628.3181137000001,
+          "earned": 9277.73094998142,
+          "consumedFrom": {
+            "community_battery": 298.4371127700042,
+            "House 1": 13.437862950000005,
+            "House 3": 17.266782192500006,
+            "House 2": 14.153184895000006,
+            "House 4": 50.660335455000265,
+            "Community": 176.0
+          },
+          "spentTo": {
+            "community_battery": 6969.716873271268,
+            "House 1": 242.12178772499968,
+            "House 3": 311.16854512375005,
+            "House 2": 232.75021587375005,
+            "House 4": 669.6804171349993,
+            "Community": 6591.75
+          },
+          "producedForExternal": {
+            "pv_4": 217.8846979949996,
+            "ev_4_pv": 359.77308024999985
+          },
+          "earnedFromExternal": {
+            "pv_4": 3369.3209751752743,
+            "ev_4_pv": 5238.729557671157
+          },
+          "consumedFromExternal": {
+            "load_4": -154.65343727750056,
+            "ev_4_load": -364.64150552999996
+          },
+          "spentToExternal": {
+            "load_4": 2968.1153566125217,
+            "ev_4_load": 11379.392065381251
+          },
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "children": [
+            {
+              "name": "load_4",
+              "uuid": "0bb75b53-fc45-476e-a7f3-53babbfa3ef1",
+              "accumulated_trades": {
+                "name": "load_4",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 4": 154.65343727750056,
+                  "pv_4": 35.33136966750003,
+                  "ev_4_pv": 8.625994112499995
+                },
+                "spentTo": {
+                  "House 4": 2968.1153566125217,
+                  "pv_4": 449.4301802499993,
+                  "ev_4_pv": 101.74660811874996
+                },
+                "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                "children": []
+              }
+            },
+            {
+              "name": "pv_4",
+              "uuid": "3caf585d-9907-4792-8880-f78a647ddf96",
+              "accumulated_trades": {
+                "name": "pv_4",
+                "produced": -259.9190393375007,
+                "earned": 3937.2547841915375,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_4_load",
+              "uuid": "e3a879fc-bd6d-47a9-abf9-dc6b0ee55153",
+              "accumulated_trades": {
+                "name": "ev_4_load",
+                "type": "load",
+                "produced": 0.0,
+                "earned": 0.0,
+                "consumedFrom": {
+                  "House 4": 364.64150552999996,
+                  "pv_4": 6.7029716750000015
+                },
+                "spentTo": {
+                  "House 4": 11379.392065381251,
+                  "pv_4": 118.50362876624999
+                },
+                "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                "children": []
+              }
+            },
+            {
+              "name": "ev_4_pv",
+              "uuid": "3fecf30d-0cdc-4267-a6f8-10a4d1476b2e",
+              "accumulated_trades": {
+                "name": "ev_4_pv",
+                "produced": -368.39907436250013,
+                "earned": 5340.476165789913,
+                "consumedFrom": {},
+                "spentTo": {},
+                "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "community_battery",
+        "uuid": "b6a33751-a828-42bb-b61d-30d101739681",
+        "accumulated_trades": {
+          "type": "InfiniteBus",
+          "name": "community_battery",
+          "produced": -1095.5272582674822,
+          "earned": 26057.946077517823,
+          "consumedFrom": {
+            "House 3": 208.53391470750012,
+            "House 2": 226.016935775,
+            "House 1": 398.5702175375005,
+            "House 4": 254.15354448250005
+          },
+          "spentTo": {
+            "House 3": 2647.6949186311376,
+            "House 2": 2912.299223960561,
+            "House 1": 6061.280373034509,
+            "House 4": 2305.4822705701854
+          },
+          "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+          "children": []
+        }
+      }
+    ]
+  },
+  "2a01f7d9-3ba4-49f7-b2a8-d8a74502b644": {
+    "name": "Market Maker",
+    "produced": -464.2109324725006,
+    "earned": 17354.21534731748,
+    "consumedFrom": {},
+    "spentTo": {},
+    "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+    "children": []
+  },
+  "c68fdf2e-8616-4782-9b23-daffe9e3145f": {
+    "name": "Grid",
+    "type": "house",
+    "produced": -464.2109324725006,
+    "earned": 17354.21534731748,
+    "consumedFrom": {
+      "Grid": 464.2109324725006
+    },
+    "spentTo": {
+      "Grid": 17354.21534731748
+    },
+    "producedForExternal": {},
+    "earnedFromExternal": {},
+    "consumedFromExternal": {},
+    "spentToExternal": {},
+    "parent_uuid": "",
+    "children": [
+      {
+        "name": "Community",
+        "uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+        "accumulated_trades": {
+          "name": "Community",
+          "type": "house",
+          "produced": -2606.749360022485,
+          "earned": 48204.17793598586,
+          "consumedFrom": {
+            "Community": 2606.749360022485,
+            "Market Maker": 464.2109324725006
+          },
+          "spentTo": {
+            "Community": 48204.17793598586,
+            "Market Maker": 17354.21534731748
+          },
+          "producedForExternal": {},
+          "earnedFromExternal": {},
+          "consumedFromExternal": {
+            "House 1": -90.91957708250025,
+            "House 4": -176.0,
+            "House 2": -8.25,
+            "House 3": -189.04135539
+          },
+          "spentToExternal": {
+            "House 1": 3182.185197887491,
+            "House 4": 6591.75,
+            "House 2": 301.125,
+            "House 3": 7279.15514943
+          },
+          "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+          "children": [
+            {
+              "name": "House 1",
+              "uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+              "accumulated_trades": {
+                "name": "House 1",
+                "type": "house",
+                "produced": -451.55154679250086,
+                "earned": 7131.771977942013,
+                "consumedFrom": {
+                  "community_battery": 279.6082272775005,
+                  "House 1": 25.427013452499992,
+                  "House 4": 147.25565212499978,
+                  "House 2": 10.766937632500005,
+                  "House 3": 12.503655710000002,
+                  "Community": 90.91957708250025
+                },
+                "spentTo": {
+                  "community_battery": 6870.00656079371,
+                  "House 1": 553.4186173500004,
+                  "House 4": 2614.8997816512438,
+                  "House 2": 206.73670164374997,
+                  "House 3": 243.3613153325,
+                  "Community": 3182.185197887491
+                },
+                "producedForExternal": {
+                  "pv_1": 402.72679550250086,
+                  "ev_1_pv": 23.397737837499992
+                },
+                "earnedFromExternal": {
+                  "pv_1": 6315.00491810989,
+                  "ev_1_pv": 263.34844248211994
+                },
+                "consumedFromExternal": {
+                  "load_1": -529.9294423300066,
+                  "ev_1_load": -11.1246074975
+                },
+                "spentToExternal": {
+                  "load_1": 12862.816734893791,
+                  "ev_1_load": 254.372822415
+                },
+                "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+                "children": [
+                  {
+                    "name": "load_1",
+                    "uuid": "3e38662c-b77e-45c5-a811-eb117044f5db",
+                    "accumulated_trades": {
+                      "name": "load_1",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 1": 529.9294423300066,
+                        "pv_1": 22.008661959999987,
+                        "ev_1_pv": 1.9664559675
+                      },
+                      "spentTo": {
+                        "House 1": 12862.816734893791,
+                        "pv_1": 495.8265749375004,
+                        "ev_1_pv": 30.471897849999998
+                      },
+                      "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "pv_1",
+                    "uuid": "d77df1df-92c8-498d-a413-3689d98df0c6",
+                    "accumulated_trades": {
+                      "name": "pv_1",
+                      "produced": -426.1873529875008,
+                      "earned": 6837.951637609893,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_1_load",
+                    "uuid": "043a326b-46ba-455d-bfb7-a68e77613b41",
+                    "accumulated_trades": {
+                      "name": "ev_1_load",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 1": 11.1246074975,
+                        "pv_1": 1.451895525
+                      },
+                      "spentTo": {
+                        "House 1": 254.372822415,
+                        "pv_1": 27.120144562500002
+                      },
+                      "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_1_pv",
+                    "uuid": "08a937d8-5dbb-4d7a-a5e6-ec4d6c021817",
+                    "accumulated_trades": {
+                      "name": "ev_1_pv",
+                      "produced": -25.364193804999992,
+                      "earned": 293.8203403321198,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "02c949d5-4e9c-43eb-bc36-fbf81d0321cb",
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "name": "House 2",
+              "uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+              "accumulated_trades": {
+                "name": "House 2",
+                "type": "house",
+                "produced": -368.8551513475003,
+                "earned": 5479.187989071798,
+                "consumedFrom": {
+                  "community_battery": 243.00902114000047,
+                  "House 2": 108.25405569249985,
+                  "House 4": 34.64969749750001,
+                  "House 1": 8.0079963625,
+                  "House 3": 8.534341905000002,
+                  "Community": 8.25
+                },
+                "spentTo": {
+                  "community_battery": 5529.116683814998,
+                  "House 2": 1902.0947754987496,
+                  "House 4": 526.2825929987501,
+                  "House 1": 150.72228591125,
+                  "House 3": 180.50997236874997,
+                  "Community": 301.125
+                },
+                "producedForExternal": {
+                  "pv_2": 233.67486637500028,
+                  "ev_2_pv": 26.926229279999998
+                },
+                "earnedFromExternal": {
+                  "pv_2": 3263.6597760424534,
+                  "ev_2_pv": 313.4334375306056
+                },
+                "consumedFromExternal": {
+                  "load_2": -265.2997665925001,
+                  "ev_2_load": -37.151290312499995
+                },
+                "spentToExternal": {
+                  "load_2": 5757.943519831247,
+                  "ev_2_load": 929.8130152624998
+                },
+                "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+                "children": [
+                  {
+                    "name": "load_2",
+                    "uuid": "f52a1f76-300d-4017-b884-6fee0321980d",
+                    "accumulated_trades": {
+                      "name": "load_2",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 2": 265.2997665925001,
+                        "pv_2": 104.66508240999985,
+                        "ev_2_pv": 1.8175105225
+                      },
+                      "spentTo": {
+                        "House 2": 5757.943519831247,
+                        "pv_2": 1841.1027330562497,
+                        "ev_2_pv": 23.9501208875
+                      },
+                      "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "pv_2",
+                    "uuid": "8c8bbfcc-2983-4a4d-8ace-64bd02c3227e",
+                    "accumulated_trades": {
+                      "name": "pv_2",
+                      "produced": -340.11141154499984,
+                      "earned": 5141.804430653701,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_2_load",
+                    "uuid": "3380bdfc-6228-40cd-89be-d69fa2ee9413",
+                    "accumulated_trades": {
+                      "name": "ev_2_load",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 2": 37.151290312499995,
+                        "pv_2": 1.77146276
+                      },
+                      "spentTo": {
+                        "House 2": 929.8130152624998,
+                        "pv_2": 37.041921555
+                      },
+                      "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_2_pv",
+                    "uuid": "ef4fe29d-1437-4779-999c-16fc186992e3",
+                    "accumulated_trades": {
+                      "name": "ev_2_pv",
+                      "produced": -28.743739802500002,
+                      "earned": 337.3835584181056,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "de8a9696-5b9b-4706-9dcb-17f4de588c1c",
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "name": "House 3",
+              "uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+              "accumulated_trades": {
+                "name": "House 3",
+                "type": "house",
+                "produced": -339.85594001750036,
+                "earned": 5041.566390764899,
+                "consumedFrom": {
+                  "community_battery": 274.47289708000096,
+                  "House 3": 93.01724550249972,
+                  "House 1": 6.108456489999999,
+                  "House 4": 141.59888413999997,
+                  "House 2": 9.664037352500005,
+                  "Community": 189.04135539
+                },
+                "spentTo": {
+                  "community_battery": 6689.105959637506,
+                  "House 3": 1658.8316393087553,
+                  "House 1": 124.22891392125001,
+                  "House 4": 3161.3858876262507,
+                  "House 2": 225.30707209500002,
+                  "Community": 7279.15514943
+                },
+                "producedForExternal": {
+                  "pv_3": 203.04583568000012,
+                  "ev_3_pv": 43.79285883500002
+                },
+                "earnedFromExternal": {
+                  "pv_3": 2821.4773254853358,
+                  "ev_3_pv": 561.2574259707965
+                },
+                "consumedFromExternal": {
+                  "load_3": -194.7658907600012,
+                  "ev_3_load": -426.1197396924999
+                },
+                "spentToExternal": {
+                  "load_3": 4196.522249443754,
+                  "ev_3_load": 13282.66073326625
+                },
+                "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+                "children": [
+                  {
+                    "name": "load_3",
+                    "uuid": "aaaa9c19-b824-4274-81ea-2f7dcf1f29fe",
+                    "accumulated_trades": {
+                      "name": "load_3",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 3": 194.7658907600012,
+                        "pv_3": 84.01558938249974,
+                        "ev_3_pv": 1.84268821
+                      },
+                      "spentTo": {
+                        "House 3": 4196.522249443754,
+                        "pv_3": 1476.5152901250071,
+                        "ev_3_pv": 20.835774881250003
+                      },
+                      "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "pv_3",
+                    "uuid": "d4927993-32ad-46f9-8a2a-a0ca51052e16",
+                    "accumulated_trades": {
+                      "name": "pv_3",
+                      "produced": -294.22039297250024,
+                      "earned": 4459.473189912854,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_3_load",
+                    "uuid": "bc32dc41-c8d3-4e56-8791-037cf6d541e4",
+                    "accumulated_trades": {
+                      "name": "ev_3_load",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 3": 426.1197396924999,
+                        "pv_3": 7.158967909999999
+                      },
+                      "spentTo": {
+                        "House 3": 13282.66073326625,
+                        "pv_3": 161.4805743025
+                      },
+                      "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_3_pv",
+                    "uuid": "bcd99ba3-b6dd-48c5-bd37-314a05fb62ae",
+                    "accumulated_trades": {
+                      "name": "ev_3_pv",
+                      "produced": -45.63554704500003,
+                      "earned": 582.0932008520466,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "1b439886-c832-43b9-892d-3537b7d93ee9",
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "name": "House 4",
+              "uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+              "accumulated_trades": {
+                "name": "House 4",
+                "type": "house",
+                "produced": -628.3181137000001,
+                "earned": 9277.73094998142,
+                "consumedFrom": {
+                  "community_battery": 298.4371127700042,
+                  "House 1": 13.437862950000005,
+                  "House 3": 17.266782192500006,
+                  "House 2": 14.153184895000006,
+                  "House 4": 50.660335455000265,
+                  "Community": 176.0
+                },
+                "spentTo": {
+                  "community_battery": 6969.716873271268,
+                  "House 1": 242.12178772499968,
+                  "House 3": 311.16854512375005,
+                  "House 2": 232.75021587375005,
+                  "House 4": 669.6804171349993,
+                  "Community": 6591.75
+                },
+                "producedForExternal": {
+                  "pv_4": 217.8846979949996,
+                  "ev_4_pv": 359.77308024999985
+                },
+                "earnedFromExternal": {
+                  "pv_4": 3369.3209751752743,
+                  "ev_4_pv": 5238.729557671157
+                },
+                "consumedFromExternal": {
+                  "load_4": -154.65343727750056,
+                  "ev_4_load": -364.64150552999996
+                },
+                "spentToExternal": {
+                  "load_4": 2968.1153566125217,
+                  "ev_4_load": 11379.392065381251
+                },
+                "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+                "children": [
+                  {
+                    "name": "load_4",
+                    "uuid": "0bb75b53-fc45-476e-a7f3-53babbfa3ef1",
+                    "accumulated_trades": {
+                      "name": "load_4",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 4": 154.65343727750056,
+                        "pv_4": 35.33136966750003,
+                        "ev_4_pv": 8.625994112499995
+                      },
+                      "spentTo": {
+                        "House 4": 2968.1153566125217,
+                        "pv_4": 449.4301802499993,
+                        "ev_4_pv": 101.74660811874996
+                      },
+                      "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "pv_4",
+                    "uuid": "3caf585d-9907-4792-8880-f78a647ddf96",
+                    "accumulated_trades": {
+                      "name": "pv_4",
+                      "produced": -259.9190393375007,
+                      "earned": 3937.2547841915375,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_4_load",
+                    "uuid": "e3a879fc-bd6d-47a9-abf9-dc6b0ee55153",
+                    "accumulated_trades": {
+                      "name": "ev_4_load",
+                      "type": "load",
+                      "produced": 0.0,
+                      "earned": 0.0,
+                      "consumedFrom": {
+                        "House 4": 364.64150552999996,
+                        "pv_4": 6.7029716750000015
+                      },
+                      "spentTo": {
+                        "House 4": 11379.392065381251,
+                        "pv_4": 118.50362876624999
+                      },
+                      "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                      "children": []
+                    }
+                  },
+                  {
+                    "name": "ev_4_pv",
+                    "uuid": "3fecf30d-0cdc-4267-a6f8-10a4d1476b2e",
+                    "accumulated_trades": {
+                      "name": "ev_4_pv",
+                      "produced": -368.39907436250013,
+                      "earned": 5340.476165789913,
+                      "consumedFrom": {},
+                      "spentTo": {},
+                      "parent_uuid": "863f72b0-1e9b-442f-b02f-195d5d4cbb41",
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "name": "community_battery",
+              "uuid": "b6a33751-a828-42bb-b61d-30d101739681",
+              "accumulated_trades": {
+                "type": "InfiniteBus",
+                "name": "community_battery",
+                "produced": -1095.5272582674822,
+                "earned": 26057.946077517823,
+                "consumedFrom": {
+                  "House 3": 208.53391470750012,
+                  "House 2": 226.016935775,
+                  "House 1": 398.5702175375005,
+                  "House 4": 254.15354448250005
+                },
+                "spentTo": {
+                  "House 3": 2647.6949186311376,
+                  "House 2": 2912.299223960561,
+                  "House 1": 6061.280373034509,
+                  "House 4": 2305.4822705701854
+                },
+                "parent_uuid": "b11982b5-97f7-435b-8bd1-bb8808228463",
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Market Maker",
+        "uuid": "2a01f7d9-3ba4-49f7-b2a8-d8a74502b644",
+        "accumulated_trades": {
+          "name": "Market Maker",
+          "produced": -464.2109324725006,
+          "earned": 17354.21534731748,
+          "consumedFrom": {},
+          "spentTo": {},
+          "parent_uuid": "c68fdf2e-8616-4782-9b23-daffe9e3145f",
+          "children": []
+        }
+      }
+    ]
+  }
+}
