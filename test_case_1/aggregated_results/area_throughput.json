@@ -1,0 +1,92 @@
+{
+  "Grid": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.0
+      }
+    }
+  },
+  "Community": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.165,
+        "peak_energy_net_kWh": 0.165
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.165
+      }
+    }
+  },
+  "House 1": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.165,
+        "peak_energy_net_kWh": 0.165
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.165
+      }
+    }
+  },
+  "House 2": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.0
+      }
+    }
+  },
+  "House 3": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.0
+      }
+    }
+  },
+  "House 4": {
+    "2020-01-31T23:45": {
+      "import": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "export": {
+        "peak_energy_trade_kWh": 0.0,
+        "peak_energy_net_kWh": 0.0
+      },
+      "net_energy_flow": {
+        "peak_energy_kWh": 0.0
+      }
+    }
+  }
+}

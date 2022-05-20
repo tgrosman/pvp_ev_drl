@@ -1,0 +1,111 @@
+{
+  "name": "Grid",
+  "uuid": "238d8944-5f7a-40c6-b944-3671c472c391",
+  "parent_uuid": "",
+  "type": "Area",
+  "children": [
+    {
+      "name": "Community",
+      "uuid": "fd3e3363-dca8-4d32-b8dc-d6a3110fca2f",
+      "parent_uuid": "238d8944-5f7a-40c6-b944-3671c472c391",
+      "type": "Area",
+      "children": [
+        {
+          "name": "House 1",
+          "uuid": "4ae41485-978f-4b30-a4cc-eb25eb0665af",
+          "parent_uuid": "fd3e3363-dca8-4d32-b8dc-d6a3110fca2f",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_1",
+              "uuid": "1b9dc78b-edc4-4061-8077-b92b4df27a10",
+              "parent_uuid": "4ae41485-978f-4b30-a4cc-eb25eb0665af",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_1",
+              "uuid": "5cd65d71-d49f-4d51-9325-e37b953cf64e",
+              "parent_uuid": "4ae41485-978f-4b30-a4cc-eb25eb0665af",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 2",
+          "uuid": "38821518-905d-4f16-8de9-258e95474635",
+          "parent_uuid": "fd3e3363-dca8-4d32-b8dc-d6a3110fca2f",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_2",
+              "uuid": "fe4ca288-5221-4765-b203-e78d14b55f30",
+              "parent_uuid": "38821518-905d-4f16-8de9-258e95474635",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_2",
+              "uuid": "8b974061-3d83-4413-808b-d927fc52e087",
+              "parent_uuid": "38821518-905d-4f16-8de9-258e95474635",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 3",
+          "uuid": "86340546-4100-4b63-8b5b-95d5b4abb8e7",
+          "parent_uuid": "fd3e3363-dca8-4d32-b8dc-d6a3110fca2f",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_3",
+              "uuid": "a8815994-cefa-4ca8-babf-08bd70b1811a",
+              "parent_uuid": "86340546-4100-4b63-8b5b-95d5b4abb8e7",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_3",
+              "uuid": "5557936b-48a4-4c67-b530-d3f684e41a14",
+              "parent_uuid": "86340546-4100-4b63-8b5b-95d5b4abb8e7",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 4",
+          "uuid": "806eef09-4a5e-4774-8af3-9619efa7aa05",
+          "parent_uuid": "fd3e3363-dca8-4d32-b8dc-d6a3110fca2f",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_4",
+              "uuid": "115f76a8-71af-4f00-a52f-d7370447406f",
+              "parent_uuid": "806eef09-4a5e-4774-8af3-9619efa7aa05",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_4",
+              "uuid": "85da4949-23e4-43db-a44c-99c84616f838",
+              "parent_uuid": "806eef09-4a5e-4774-8af3-9619efa7aa05",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market Maker",
+      "uuid": "26a7e353-1b8b-42b9-bb59-291c01b28070",
+      "parent_uuid": "238d8944-5f7a-40c6-b944-3671c472c391",
+      "type": "MarketMakerStrategy",
+      "children": []
+    }
+  ]
+}
