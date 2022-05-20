@@ -1,0 +1,27 @@
+Summary of the underlying data for the simulation:
+Load for 13 month!!!!
+Energy profile in kWh
+2020 only January
+Watt for d3a data requirement
+
+
+						1		2		3		4	
+
+load_2019 (kWh)					done
+load_2019 (W)					done
+load_2020_jan (kWh)				done
+load_2020_jan (W)				done
+pv_2019 (kWh)					done
+pv_2020_jan (kWh)				done
+pv_2019 (W)					done
+pv_2019 (Watt)					done
+pv_2018_raw					done
+energy_profile					done
+
+
+
+	     kWh(13 month)	id	avg_consum	avg_prod	cap
+house_1	     7864.43		150	20.09		125.05		10		
+house_2	     5161.81		117	12.95		87.53		 7
+house_3	     4340.05		 58	10.89		75.03		 6
+house_4.     2792.92		 30	 6.96		50.02		 4
