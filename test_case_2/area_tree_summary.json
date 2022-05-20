@@ -1,0 +1,139 @@
+{
+  "name": "Grid",
+  "uuid": "caa4a22f-30cd-4571-9261-d6fdd484ac77",
+  "parent_uuid": "",
+  "type": "Area",
+  "children": [
+    {
+      "name": "Community",
+      "uuid": "542b5c9c-b73c-4aee-bcdb-4266f9117ab8",
+      "parent_uuid": "caa4a22f-30cd-4571-9261-d6fdd484ac77",
+      "type": "Area",
+      "children": [
+        {
+          "name": "House 1",
+          "uuid": "0a00ea2c-3cc9-4c8a-b8ec-d74cd092ec17",
+          "parent_uuid": "542b5c9c-b73c-4aee-bcdb-4266f9117ab8",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_1",
+              "uuid": "39a42ec4-ba6e-469e-87f6-07408950901f",
+              "parent_uuid": "0a00ea2c-3cc9-4c8a-b8ec-d74cd092ec17",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_1",
+              "uuid": "6058186f-3ef7-4ee8-8f67-0df4e96705a2",
+              "parent_uuid": "0a00ea2c-3cc9-4c8a-b8ec-d74cd092ec17",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "battery_1",
+              "uuid": "d0581fcc-8bd0-48bf-b629-de83738d23e6",
+              "parent_uuid": "0a00ea2c-3cc9-4c8a-b8ec-d74cd092ec17",
+              "type": "StorageStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 2",
+          "uuid": "8103cc4f-5458-4a77-8498-2fb226ec76d7",
+          "parent_uuid": "542b5c9c-b73c-4aee-bcdb-4266f9117ab8",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_2",
+              "uuid": "1ab2681b-d982-45d3-80f8-db6f1a3f2b3f",
+              "parent_uuid": "8103cc4f-5458-4a77-8498-2fb226ec76d7",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_2",
+              "uuid": "cdad688d-2494-4499-9431-87022eb93c39",
+              "parent_uuid": "8103cc4f-5458-4a77-8498-2fb226ec76d7",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "battery_2",
+              "uuid": "8f52dae9-6cfe-4e1c-b28d-1ea70b51608d",
+              "parent_uuid": "8103cc4f-5458-4a77-8498-2fb226ec76d7",
+              "type": "StorageStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 3",
+          "uuid": "480c026b-cbd8-4f2e-a2bb-2b801ca3d0e6",
+          "parent_uuid": "542b5c9c-b73c-4aee-bcdb-4266f9117ab8",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_3",
+              "uuid": "5758a7f7-eafe-4cc3-b103-9c3190ab9499",
+              "parent_uuid": "480c026b-cbd8-4f2e-a2bb-2b801ca3d0e6",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_3",
+              "uuid": "5c3c8dcf-3d8f-4f9b-9b05-b123812bd381",
+              "parent_uuid": "480c026b-cbd8-4f2e-a2bb-2b801ca3d0e6",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "battery_3",
+              "uuid": "e82dc20a-5b59-4db4-8b5f-fd4d5776f58c",
+              "parent_uuid": "480c026b-cbd8-4f2e-a2bb-2b801ca3d0e6",
+              "type": "StorageStrategy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "House 4",
+          "uuid": "59f65519-2ccd-461c-a8b0-597d700f6981",
+          "parent_uuid": "542b5c9c-b73c-4aee-bcdb-4266f9117ab8",
+          "type": "Area",
+          "children": [
+            {
+              "name": "load_4",
+              "uuid": "f687e309-949b-46f9-8aa3-338737c6c88b",
+              "parent_uuid": "59f65519-2ccd-461c-a8b0-597d700f6981",
+              "type": "LoadProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "pv_4",
+              "uuid": "1667d04b-e5b3-45d8-93df-18f7423ffb4e",
+              "parent_uuid": "59f65519-2ccd-461c-a8b0-597d700f6981",
+              "type": "PVUserProfileExternalStrategy",
+              "children": []
+            },
+            {
+              "name": "battery_4",
+              "uuid": "e396f62b-665b-4a96-a1f7-56ad8c3b3645",
+              "parent_uuid": "59f65519-2ccd-461c-a8b0-597d700f6981",
+              "type": "StorageStrategy",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market Maker",
+      "uuid": "2b5d6d1f-ffd9-45c5-9611-3dfac2a47ebe",
+      "parent_uuid": "caa4a22f-30cd-4571-9261-d6fdd484ac77",
+      "type": "MarketMakerStrategy",
+      "children": []
+    }
+  ]
+}

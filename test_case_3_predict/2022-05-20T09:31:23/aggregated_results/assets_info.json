@@ -1,0 +1,12 @@
+{
+  "number_of_house_type": 0,
+  "avg_assets_per_house": 0,
+  "number_of_load_type": 5,
+  "total_energy_demand_kwh": 9794.45712055001,
+  "number_of_pv_type": 5,
+  "total_energy_generated_kwh": 11070.845743714981,
+  "number_of_storage_type": 0,
+  "total_energy_capacity_kwh": 0,
+  "number_of_power_plant_type": 0,
+  "max_power_plant_power_kw": 0
+}

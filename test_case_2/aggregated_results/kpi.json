@@ -1,0 +1,80 @@
+{
+  "caa4a22f-30cd-4571-9261-d6fdd484ac77": {
+    "self_sufficiency": 0.8744819502146242,
+    "self_consumption": 0.9937839448517924,
+    "total_energy_demanded_wh": 1607707.1205500104,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 477334.97235249885,
+    "total_energy_produced_wh": 1414704.740840003,
+    "total_self_consumption_wh": 1405910.8581525108
+  },
+  "542b5c9c-b73c-4aee-bcdb-4266f9117ab8": {
+    "self_sufficiency": 0.8090929687087529,
+    "self_consumption": 0.9932849513839157,
+    "total_energy_demanded_wh": 1607707.1205500104,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 477334.97235249885,
+    "total_energy_produced_wh": 1309578.4096675003,
+    "total_self_consumption_wh": 1300784.5269800087
+  },
+  "0a00ea2c-3cc9-4c8a-b8ec-d74cd092ec17": {
+    "self_sufficiency": 0.3771590830692148,
+    "self_consumption": 0.5217400628871279,
+    "total_energy_demanded_wh": 567699.4914125082,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 4512.90151000001,
+    "total_energy_produced_wh": 410382.5542074999,
+    "total_self_consumption_wh": 214113.01964000118,
+    "base_case_cost": 8927.858588625015,
+    "utility_bill": 13609.152929575012,
+    "fit_revenue": 4681.294340949998,
+    "gsy_e_cost": 5164.20511468119,
+    "saving_absolute": 3763.653473943825,
+    "saving_percentage": 42.156284584739005
+  },
+  "8103cc4f-5458-4a77-8498-2fb226ec76d7": {
+    "self_sufficiency": 0.3955809678621908,
+    "self_consumption": 0.5084161328877976,
+    "total_energy_demanded_wh": 445764.6152074997,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 0,
+    "total_energy_produced_wh": 346833.99388000026,
+    "total_self_consumption_wh": 176335.9979224998,
+    "base_case_cost": 4184.6807888250105,
+    "utility_bill": 8719.481672475,
+    "fit_revenue": 4534.800883649989,
+    "gsy_e_cost": 694.0414557429009,
+    "saving_absolute": 3490.6393330821097,
+    "saving_percentage": 83.41470972896416
+  },
+  "480c026b-cbd8-4f2e-a2bb-2b801ca3d0e6": {
+    "self_sufficiency": 0.39296519618056486,
+    "self_consumption": 0.47869408522058743,
+    "total_energy_demanded_wh": 348714.337807501,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 0,
+    "total_energy_produced_wh": 286263.4037025009,
+    "total_self_consumption_wh": 137032.5981675004,
+    "base_case_cost": 3242.7883675625244,
+    "utility_bill": 7814.41540311253,
+    "fit_revenue": 4571.6270355500055,
+    "gsy_e_cost": -198.862826248225,
+    "saving_absolute": 3441.651193810749,
+    "saving_percentage": 106.13246390783442
+  },
+  "59f65519-2ccd-461c-a8b0-597d700f6981": {
+    "self_sufficiency": 0.3070503260070767,
+    "self_consumption": 0.2833149077557068,
+    "total_energy_demanded_wh": 245528.67612250143,
+    "demanded_buffer_wh": 0.0,
+    "self_consumption_buffer_wh": 0,
+    "total_energy_produced_wh": 266098.457877501,
+    "total_self_consumption_wh": 75389.66004750002,
+    "base_case_cost": 1661.7316423875218,
+    "utility_bill": 6990.859777387512,
+    "fit_revenue": 5329.12813499999,
+    "gsy_e_cost": -1979.962153138399,
+    "saving_absolute": 3641.693795525921,
+    "saving_percentage": 219.1505356601174
+  }
+}

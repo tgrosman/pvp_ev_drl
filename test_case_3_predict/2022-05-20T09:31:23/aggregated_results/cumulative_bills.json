@@ -1,0 +1,146 @@
+{
+  "d0b44db3-d3a7-4e04-b00d-b0e4f40968cb": {
+    "name": "load_1",
+    "spent_total": 130.701,
+    "earned": 0.0,
+    "penalties": 6.697,
+    "penalty_energy": 22.936,
+    "total": 137.398
+  },
+  "40e162c8-fdfa-4f5f-b91f-a3b94ae16f8f": {
+    "name": "pv_1",
+    "spent_total": 0.0,
+    "earned": 68.46,
+    "penalties": 0.0,
+    "penalty_energy": 645.156,
+    "total": -68.46
+  },
+  "5e0d4c2a-cdc6-4e4e-8df0-8585e2a0c022": {
+    "name": "ev_1_load",
+    "spent_total": 59.275,
+    "earned": 0.0,
+    "penalties": 2331.227,
+    "penalty_energy": 7983.654,
+    "total": 2390.502
+  },
+  "d935c692-6395-4b5f-a43e-c4901552a0f5": {
+    "name": "ev_1_pv",
+    "spent_total": 0.0,
+    "earned": 11.861,
+    "penalties": 0.0,
+    "penalty_energy": 8076.387,
+    "total": -11.861
+  },
+  "3826d719-5b6c-4cff-b743-e526f343c6bb": {
+    "name": "House 1",
+    "spent_total": 189.976,
+    "earned": 80.321,
+    "penalties": 2337.924,
+    "penalty_energy": 16728.133,
+    "total": 2447.58
+  },
+  "c9e44932-6788-476a-8bad-8de8320ef1f4": {
+    "name": "load_2",
+    "spent_total": 76.853,
+    "earned": 0.0,
+    "penalties": 21.74,
+    "penalty_energy": 74.452,
+    "total": 98.593
+  },
+  "c688b308-7ad2-43ba-af42-c717202fa448": {
+    "name": "pv_2",
+    "spent_total": 0.0,
+    "earned": 51.567,
+    "penalties": 0.0,
+    "penalty_energy": 409.004,
+    "total": -51.567
+  },
+  "591adae2-a430-44a7-9002-37068a49f73a": {
+    "name": "House 2",
+    "spent_total": 76.853,
+    "earned": 51.567,
+    "penalties": 21.74,
+    "penalty_energy": 483.456,
+    "total": 47.026
+  },
+  "344f0c35-66b7-4bf2-8ca6-1184e963f00a": {
+    "name": "load_3",
+    "spent_total": 58.021,
+    "earned": 0.0,
+    "penalties": 19.239,
+    "penalty_energy": 65.888,
+    "total": 77.26
+  },
+  "003bb83c-e795-4f81-9a27-a8dd6175b5b8": {
+    "name": "pv_3",
+    "spent_total": 0.0,
+    "earned": 43.389,
+    "penalties": 0.0,
+    "penalty_energy": 336.665,
+    "total": -43.389
+  },
+  "eca869a4-fb01-4497-9de6-73803de7b134": {
+    "name": "House 3",
+    "spent_total": 58.021,
+    "earned": 43.389,
+    "penalties": 19.239,
+    "penalty_energy": 402.553,
+    "total": 33.871
+  },
+  "68e0120d-3057-4f80-9825-d0a1a97312ed": {
+    "name": "load_4",
+    "spent_total": 35.937,
+    "earned": 0.0,
+    "penalties": 13.366,
+    "penalty_energy": 45.773,
+    "total": 49.303
+  },
+  "f8a291d8-a70b-42f3-84ea-8a58bc014928": {
+    "name": "pv_4",
+    "spent_total": 0.0,
+    "earned": 39.413,
+    "penalties": 0.0,
+    "penalty_energy": 174.284,
+    "total": -39.413
+  },
+  "5e82aba8-4800-4777-93f3-c886bd3452fc": {
+    "name": "House 4",
+    "spent_total": 35.937,
+    "earned": 39.413,
+    "penalties": 13.366,
+    "penalty_energy": 220.057,
+    "total": 9.89
+  },
+  "b0bb5175-dd0d-46ab-a5c5-889919573c2b": {
+    "name": "community_battery",
+    "spent_total": 126.998,
+    "earned": 215.741,
+    "penalties": 0.0,
+    "penalty_energy": 0.0,
+    "total": -88.744
+  },
+  "8bc7d706-c65c-445f-b12d-805126b405ca": {
+    "name": "Community",
+    "spent_total": 487.785,
+    "earned": 430.431,
+    "penalties": 2392.27,
+    "penalty_energy": 17834.2,
+    "total": 2449.624
+  },
+  "328047c5-3b13-411f-933f-466a71d79163": {
+    "name": "Market Maker",
+    "spent_total": 0.0,
+    "earned": 57.354,
+    "penalties": 0.0,
+    "penalty_energy": 0.0,
+    "total": -57.354
+  },
+  "eb90508e-4fbc-477c-9f2b-4664d837244f": {
+    "name": "Grid",
+    "spent_total": 487.785,
+    "earned": 487.785,
+    "penalties": 2392.27,
+    "penalty_energy": 17834.2,
+    "total": 2392.27
+  }
+}
